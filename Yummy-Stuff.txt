@@ -1,1 +1,1 @@
-shutdown.exe /s /t 0
+Start-Process notepad
