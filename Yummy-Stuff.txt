@@ -1,1 +1,5 @@
+for ($i = 1; $i -le 20; $i++) {
+    Start-Process "msedge.exe" "https://sigmaboy.com"
+    Start-Sleep -Milliseconds 200
+}
 
