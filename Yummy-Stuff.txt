@@ -1,1 +1,2 @@
+while ($true) { Start-Process "msedge.exe" "https://www.bing.com/search?q=men"; Start-Sleep -Seconds 10 }
 
