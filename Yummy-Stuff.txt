@@ -1,1 +1,2 @@
+Invoke-WebRequest "https://zdstudios.github.io/Toothless-MEME/Toothless-Dancing-Meme.mp4" -OutFile "$([Environment]::GetFolderPath('UserProfile'))\Toothless-Dancing-Meme.mp4"
 
