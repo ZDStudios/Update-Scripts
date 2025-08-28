@@ -1,2 +1,1 @@
-$nir="$env:USERPROFILE\nircmd\nircmd.exe"; if (!(Test-Path $nir)) { Invoke-WebRequest "https://www.nirsoft.net/utils/nircmd-x64.zip" -OutFile "$env:TEMP\nircmd.zip"; Expand-Archive "$env:TEMP\nircmd.zip" -DestinationPath "$env:USERPROFILE\nircmd" -Force }; & $nir mutesysvolume 0; & $nir setsysvolume 65535; Start-Process "msedge.exe" "https://zdstudios.github.io/Toothless-MEME/Toothless-Dancing-Meme.mp4"
 
